@@ -31,4 +31,6 @@ Below is the definition of $O$ as a reference for this problem:
 $f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
 
 Thinking about the definitions for both $o$ and $O$ it would make sense that $f(n)\in o(g(n))$ implies that $f(n)\in O(g(n))$.
-This is because the only difference between the two equations is the $\ge$ and $\le$
+This is because the only difference between the two equations is the $\ge$ and $<$, which means that $O$ include more than $o$.
+With $O$ being more inclusive, it stands to reason that the statement $f(n)\in o(g(n))$ would imply that $f(n)\in O(g(n))$
+because the narrower scope would be within the realm of the wider scope of $O$.
