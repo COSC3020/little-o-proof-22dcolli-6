@@ -25,5 +25,10 @@ of any Large Language Models. All of the work is my own, except where stated
 otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
 suspected, charges may be filed against me without prior notice.”
 
-Below is the definition of $O$ as a reference for this problem
+## Answer
+
+Below is the definition of $O$ as a reference for this problem:
 $f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
+
+Thinking about the definitions for both $o$ and $O$ it would make sense that $f(n)\in o(g(n))$ implies that $f(n)\in O(g(n))$.
+This is because the only difference between the two equations is the $\ge$ and $\le$
