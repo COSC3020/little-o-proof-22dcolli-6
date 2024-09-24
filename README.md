@@ -40,3 +40,5 @@ Big $O$     $f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le
 
 Little $o$ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
+The other difference between the two definitions is the "$\iff \exists c>0,n_0 >0$" and "$\iff \forall c>0, \exists n_0$"
+
