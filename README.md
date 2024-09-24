@@ -36,7 +36,7 @@ With $O$ being more inclusive, it stands to reason that the statement $f(n)\in o
 because the narrower scope would be within the realm of the wider scope of $O$.
 
 ### Addition
-Big $O$    $f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
+Big $O$     $f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
 
 Little $o$ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
